@@ -22,29 +22,29 @@
 
         td {
             border: solid thin;
-            height: 99px;
-            width: 99px;
+            height: 160px;
+            width: 160px;
             text-align: center;
         }
 
         td:hover {
           cursor: cell;
         }
-
-        td.J-A:hover {
+        td.J-Aa:hover, td.J-Ab:hover, td.J-A:hover {
             background-color: magenta;
         }
-
-        td.J-B:hover {
+        td.J-Ba:hover, td.J-Bb:hover, td.J-B:hover {
           background-color: cornflowerblue;
         }
-
-        td.M-A:hover {
+        td.M-Aa:hover, td.M-Ab:hover, td.M-A:hover {
             background-color: red;
         }
 
-        td.M-B:hover {
+        td.M-Ba:hover, td.M-Bb:hover, td.M-B:hover {
             background-color: yellow;
+        }
+        td.M-Ca:hover, td.M-Cb:hover, td.M-C:hover {
+            background-color: khaki;
         }
         .container {
             display: flex;
@@ -86,771 +86,2281 @@
         <table id="music">
             <div class="one">
                 <tr>
-                    <th>Artist</th>
-                    <th>Song</th>
-                    <th>Album</th>
+                    <th></th>
+                    <th onclick="window.location.reload();" style="font-size:25px; font-weight: lighter; cursor: alias">record</th>
+                    <th></th>
                 </tr>
+<!-- JALEN -->
                 <tr>
-                    <td class="J-A">TV Girl</td>
-                    <td class="J-A">Every Stupid Actress</td>
+                    <td class="J-Aa">TV Girl</td>
+                    <td class="J-Ab">Every Stupid Actress</td>
                     <td class="J-A">Death of a Party Girl</td>
                 </tr>
                 <tr>
-                    <td class="J-A">TV Girl</td>
-                    <td class="J-A">It Almost Worked</td>
+                    <td class="J-Aa">TV Girl</td>
+                    <td class="J-Ab">It Almost Worked</td>
                     <td class="J-A">The Night in Question: French Exit Outtakes</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Hana Vu</td>
-                    <td class="J-A">At the Party</td>
+                    <td class="J-Aa">Hana Vu</td>
+                    <td class="J-Ab">At the Party</td>
                     <td class="J-A">Nicole Kidman / Anne Hathaway</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Sir Chloe</td>
-                    <td class="J-A">Michelle</td>
+                    <td class="J-Aa">Sir Chloe</td>
+                    <td class="J-Ab">Michelle</td>
                     <td class="J-A">Party Favors</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Soccer Mommy</td>
-                    <td class="J-A">Your Dog</td>
+                    <td class="J-Aa">Soccer Mommy</td>
+                    <td class="J-Ab">Your Dog</td>
                     <td class="J-A">Clean</td>
                 </tr>
                 <tr>
-                    <td class="J-A">TV Girl</td>
-                    <td class="J-A">Louise</td>
+                    <td class="J-Aa">TV Girl</td>
+                    <td class="J-Ab">Louise</td>
                     <td class="J-A">French Exit</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Hana Vu</td>
-                    <td class="J-A">Shallow</td>
+                    <td class="J-Aa">Hana Vu</td>
+                    <td class="J-Ab">Shallow</td>
                     <td class="J-A">How Many Times Have You Driven By</td>
                 </tr>
                 <tr>
-                    <td class="J-A">late night drive home</td>
-                    <td class="J-A">Stress Relief</td>
+                    <td class="J-Aa">late night drive home</td>
+                    <td class="J-Ab">Stress Relief</td>
                     <td class="J-A">Am I sinking or Am I swimming?</td>
                 </tr>
                 <tr>
-                    <td class="J-A">julie</td>
-                    <td class="J-A">april's-bloom</td>
+                    <td class="J-Aa">julie</td>
+                    <td class="J-Ab">april's-bloom</td>
                     <td class="J-A">pushing daisies</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Sweet Trip</td>
-                    <td class="J-A">Dsco</td>
+                    <td class="J-Aa">Sweet Trip</td>
+                    <td class="J-Ab">Dsco</td>
                     <td class="J-A">Velocity: Design: Comfort.</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Magdalena Bay</td>
-                    <td class="J-A">Killshot</td>
+                    <td class="J-Aa">Magdalena Bay</td>
+                    <td class="J-Ab">Killshot</td>
                     <td class="J-A">A Little Rhythm and a Wicked Feeling</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Sorry</td>
-                    <td class="J-A">Starstruck - Single Version</td>
+                    <td class="J-Aa">Sorry</td>
+                    <td class="J-Ab">Starstruck - Single Version</td>
                     <td class="J-A">Starstruck</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Jordana, TV Girl</td>
-                    <td class="J-A">Summer's Over</td>
+                    <td class="J-Aa">Jordana, TV Girl</td>
+                    <td class="J-Ab">Summer's Over</td>
                     <td class="J-A">Summer's Over</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Mac DeMarco</td>
-                    <td class="J-A">Ode To Viceroy</td>
+                    <td class="J-Aa">Mac DeMarco</td>
+                    <td class="J-Ab">Ode To Viceroy</td>
                     <td class="J-A">2</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Dr. Dog</td>
-                    <td class="J-A">Where'd All the Time Go?</td>
+                    <td class="J-Aa">Dr. Dog</td>
+                    <td class="J-Ab">Where'd All the Time Go?</td>
                     <td class="J-A">Shame, Shame (Deluxe Edition)</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Gorillaz</td>
-                    <td class="J-A">Rhinestone Eyes</td>
+                    <td class="J-Aa">Gorillaz</td>
+                    <td class="J-Ab">Rhinestone Eyes</td>
                     <td class="J-A">Plastic Beach</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Hana Vu</td>
-                    <td class="J-A">Aubade</td>
+                    <td class="J-Aa">Hana Vu</td>
+                    <td class="J-Ab">Aubade</td>
                     <td class="J-A">Public Storage</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Mitski</td>
-                    <td class="J-A">Brand New City</td>
+                    <td class="J-Aa">Mitski</td>
+                    <td class="J-Ab">Brand New City</td>
                     <td class="J-A">Lush</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Hana Vu</td>
-                    <td class="J-A">My House</td>
+                    <td class="J-Aa">Hana Vu</td>
+                    <td class="J-Ab">My House</td>
                     <td class="J-A">Public Storage</td>
                 </tr>
                 <tr>
-                    <td class="J-A">YONLAPA</td>
-                    <td class="J-A">Sweetest Cure</td>
+                    <td class="J-Aa">YONLAPA</td>
+                    <td class="J-Ab">Sweetest Cure</td>
                     <td class="J-A">Sweetest Cure</td>
                 </tr>
                 <tr>
-                    <td class="J-A">The Marias</td>
-                    <td class="J-A">Care For You</td>
+                    <td class="J-Aa">The Marias</td>
+                    <td class="J-Ab">Care For You</td>
                     <td class="J-A">Care For You</td>
                 </tr>
                 <tr>
-                    <td class="J-A">mei ehara</td>
-                    <td class="J-A">ある喫茶</td>
+                    <td class="J-Aa">mei ehara</td>
+                    <td class="J-Ab">ある喫茶</td>
                     <td class="J-A">私をしも</td>
                 </tr>
                 <tr>
-                    <td class="J-A">mei ehara</td>
-                    <td class="J-A">昼間から夜</td>
+                    <td class="J-Aa">mei ehara</td>
+                    <td class="J-Ab">昼間から夜</td>
                     <td class="J-A">Ampersands</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Junko Ohashi</td>
-                    <td class="J-A">男と女</td>
+                    <td class="J-Aa">Junko Ohashi</td>
+                    <td class="J-Ab">男と女</td>
                     <td class="J-A">THE BEST SONGS OF JUNKO OHASHI</td>
                 </tr>
                 <tr>
-                    <td class="J-A">No Buses</td>
-                    <td class="J-A">Imagine Siblings</td>
+                    <td class="J-Aa">No Buses</td>
+                    <td class="J-Ab">Imagine Siblings</td>
                     <td class="J-A">Imagine Siblings / Number Four or Five / Trying Trying</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Akina Nakamori</td>
-                    <td class="J-A">BLONDE - 2012 Remaster</td>
+                    <td class="J-Aa">Akina Nakamori</td>
+                    <td class="J-Ab">BLONDE - 2012 Remaster</td>
                     <td class="J-A">AKINA BOX 1982-1991 (2012 Remaster)</td>
                 </tr>
                 <tr>
-                    <td class="J-A">百景</td>
-                    <td class="J-A">ほんをよむ</td>
+                    <td class="J-Aa">百景</td>
+                    <td class="J-Ab">ほんをよむ</td>
                     <td class="J-A">おくりもの</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Taeko Onuki</td>
-                    <td class="J-A">Tokai</td>
+                    <td class="J-Aa">Taeko Onuki</td>
+                    <td class="J-Ab">Tokai</td>
                     <td class="J-A">SUNSHOWER</td>
                 </tr>
                 <tr>
-                    <td class="J-A">流線形</td>
-                    <td class="J-A">タイムマシーン・ラヴ</td>
+                    <td class="J-Aa">流線形</td>
+                    <td class="J-Ab">タイムマシーン・ラヴ</td>
                     <td class="J-A">TOKYO SNIPER</td>
                 </tr>
                 <tr>
-                    <td class="J-A">KIRINJI</td>
-                    <td class="J-A">休日の過ごし方</td>
+                    <td class="J-Aa">KIRINJI</td>
+                    <td class="J-Ab">休日の過ごし方</td>
                     <td class="J-A">cherish</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Ryo Fukui</td>
-                    <td class="J-A">Scenery</td>
+                    <td class="J-Aa">Ryo Fukui</td>
+                    <td class="J-Ab">Scenery</td>
                     <td class="J-A">シーナリィ</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Ryo Fukui</td>
-                    <td class="J-A">Early Summer</td>
+                    <td class="J-Aa">Ryo Fukui</td>
+                    <td class="J-Ab">Early Summer</td>
                     <td class="J-A">シーナリィ</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Ryo Fukui</td>
-                    <td class="J-A">It Could Happen To You</td>
+                    <td class="J-Aa">Ryo Fukui</td>
+                    <td class="J-Ab">It Could Happen To You</td>
                     <td class="J-A">シーナリィ</td>
                 </tr>
                 <tr>
-                    <td class="J-A">POLKADOT STINGRAY</td>
-                    <td class="J-A">Telecaster Stripes</td>
+                    <td class="J-Aa">POLKADOT STINGRAY</td>
+                    <td class="J-Ab">Telecaster Stripes</td>
                     <td class="J-A">Honenuki E.P.</td>
                 </tr>
                 <tr>
-                    <td class="J-A">No Buses</td>
-                    <td class="J-A">Pretty Old Man</td>
+                    <td class="J-Aa">No Buses</td>
+                    <td class="J-Ab">Pretty Old Man</td>
                     <td class="J-A">Boys Missed The Bus</td>
                 </tr>
                 <tr>
-                    <td class="J-A">POLKADOT STINGRAY</td>
-                    <td class="J-A">夜明けのオレンジ - 全知全能 ver.</td>
+                    <td class="J-Aa">POLKADOT STINGRAY</td>
+                    <td class="J-Ab">夜明けのオレンジ - 全知全能 ver.</td>
                     <td class="J-A">全知全能</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Faye Webster</td>
-                    <td class="J-A">A Dream With a Baseball Player</td>
+                    <td class="J-Aa">Faye Webster</td>
+                    <td class="J-Ab">A Dream With a Baseball Player</td>
                     <td class="J-A">I Know I'm Funny haha</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Faye Webster</td>
-                    <td class="J-A">In A Good Way - Recorded At Electric Lady Studios</td>
+                    <td class="J-Aa">Faye Webster</td>
+                    <td class="J-Ab">In A Good Way - Recorded At Electric Lady Studios</td>
                     <td class="J-A">Live At Electric Lady</td>
                 </tr>
                 <tr>
-                    <td class="J-A">TV Girl</td>
-                    <td class="J-A">(Do The) Act Like You Never Met Me</td>
+                    <td class="J-Aa">TV Girl</td>
+                    <td class="J-Ab">(Do The) Act Like You Never Met Me</td>
                     <td class="J-A">Who Really Cares</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Mac DeMarco</td>
-                    <td class="J-A">For the First Time</td>
+                    <td class="J-Aa">Mac DeMarco</td>
+                    <td class="J-Ab">For the First Time</td>
                     <td class="J-A">This Old Dog</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Faye Webster</td>
-                    <td class="J-A">Johnny</td>
+                    <td class="J-Aa">Faye Webster</td>
+                    <td class="J-Ab">Johnny</td>
                     <td class="J-A">Atlanta Millionares Club</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Sir Chloe</td>
-                    <td class="J-A">July</td>
+                    <td class="J-Aa">Sir Chloe</td>
+                    <td class="J-Ab">July</td>
                     <td class="J-A">Party Favors</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Sir Chloe</td>
-                    <td class="J-A">Too Close</td>
+                    <td class="J-Aa">Sir Chloe</td>
+                    <td class="J-Ab">Too Close</td>
                     <td class="J-A">Party Favors</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Weyes Blood</td>
-                    <td class="J-A">Picture Me Better</td>
+                    <td class="J-Aa">Weyes Blood</td>
+                    <td class="J-Ab">Picture Me Better</td>
                     <td class="J-A">Titanic Rising</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Faye Webster</td>
-                    <td class="J-A">Half of Me</td>
+                    <td class="J-Aa">Faye Webster</td>
+                    <td class="J-Ab">Half of Me</td>
                     <td class="J-A">I Know I'm Funny haha</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Cody Ash</td>
+                    <td class="J-Aa">Cody Ash</td>
+                    <td class="J-Ab">Better Days</td>
                     <td class="J-A">Better Days</td>
-                    <td class="J-A">Better Days</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Yellow Days</td>
+                    <td class="J-Aa">Yellow Days</td>
+                    <td class="J-Ab">How Can I Love You?</td>
                     <td class="J-A">How Can I Love You?</td>
-                    <td class="J-A">How Can I Love You?</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Yellow Days</td>
-                    <td class="J-A">The Way Things Change</td>
+                    <td class="J-Aa">Yellow Days</td>
+                    <td class="J-Ab">The Way Things Change</td>
                     <td class="J-A">The Way Things Change</td>
                 </tr>
                 <tr>
-                    <td class="J-A">The Marias</td>
-                    <td class="J-A">Only in My Dreams</td>
+                    <td class="J-Aa">The Marias</td>
+                    <td class="J-Ab">Only in My Dreams</td>
                     <td class="J-A">Superclean, Vol. I</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Men I Trust</td>
-                    <td class="J-A">Numb (Album V)</td>
+                    <td class="J-Aa">Men I Trust</td>
+                    <td class="J-Ab">Numb (Album V)</td>
                     <td class="J-A">Oncle Jazz</td>
                 </tr>
                 <tr>
-                    <td class="J-A">pâle regard</td>
-                    <td class="J-A">Appel D'air</td>
+                    <td class="J-Aa">pâle regard</td>
+                    <td class="J-Ab">Appel D'air</td>
                     <td class="J-A">Appel D'air</td>
                 </tr>
                 <tr>
-                    <td class="J-A">YONLAPA</td>
-                    <td class="J-A">Let Me Go</td>
+                    <td class="J-Aa">YONLAPA</td>
+                    <td class="J-Ab">Let Me Go</td>
                     <td class="J-A">Let Me Go</td>
                 </tr>
                 <tr>
-                    <td class="J-A">bôa</td>
-                    <td class="J-A">Duvet</td>
+                    <td class="J-Aa">bôa</td>
+                    <td class="J-Ab">Duvet</td>
                     <td class="J-A">Twilight</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Sweet Trip</td>
-                    <td class="J-A">Milk - 2021 Remaster</td>
+                    <td class="J-Aa">Sweet Trip</td>
+                    <td class="J-Ab">Milk - 2021 Remaster</td>
                     <td class="J-A">You Will Never Know Why (2021 Remaster)</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Luna Li</td>
-                    <td class="J-A">Afterglow</td>
+                    <td class="J-Aa">Luna Li</td>
+                    <td class="J-Ab">Afterglow</td>
                     <td class="J-A">Afterglow</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Japanese Breakfast</td>
-                    <td class="J-A">Tactics - Recorded At Electric Lady Studios</td>
+                    <td class="J-Aa">Japanese Breakfast</td>
+                    <td class="J-Ab">Tactics - Recorded At Electric Lady Studios</td>
                     <td class="J-A">Live At Electric Lady</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Sir Chloe</td>
-                    <td class="J-A">Sedona</td>
+                    <td class="J-Aa">Sir Chloe</td>
+                    <td class="J-Ab">Sedona</td>
                     <td class="J-A">Party Favors</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Miso</td>
-                    <td class="J-A">Alone</td>
+                    <td class="J-Aa">Miso</td>
+                    <td class="J-Ab">Alone</td>
                     <td class="J-A">Alone</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Haley Heynderickx</td>
-                    <td class="J-A">No Face</td>
+                    <td class="J-Aa">Haley Heynderickx</td>
+                    <td class="J-Ab">No Face</td>
                     <td class="J-A">I Need to Start a Garden</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Vansire</td>
+                    <td class="J-Aa">Vansire</td>
+                    <td class="J-Ab">That I Miss You</td>
                     <td class="J-A">That I Miss You</td>
-                    <td class="J-A">That I Miss You</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Vansire</td>
+                    <td class="J-Aa">Vansire</td>
+                    <td class="J-Ab">Metamodernity</td>
                     <td class="J-A">Metamodernity</td>
-                    <td class="J-A">Metamodernity</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Vansire</td>
-                    <td class="J-A">Just the Right Song</td>
+                    <td class="J-Aa">Vansire</td>
+                    <td class="J-Ab">Just the Right Song</td>
                     <td class="J-A">Just the Right Song</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Vansire</td>
-                    <td class="J-A">Every Time Around</td>
+                    <td class="J-Aa">Vansire</td>
+                    <td class="J-Ab">Every Time Around</td>
                     <td class="J-A">After Filmore County</td>
                 </tr>
                 <tr>
-                    <td class="J-A">Men I Trust</td>
-                    <td class="J-A">Numb</td>
+                    <td class="J-Aa">Men I Trust</td>
+                    <td class="J-Ab">Numb</td>
                     <td class="J-A">Numb</td>
                 </tr>
                 <tr>
-                    <td class="J-A">TV Girl</td>
-                    <td class="J-A">Cynical One</td>
+                    <td class="J-Aa">TV Girl</td>
+                    <td class="J-Ab">Cynical One</td>
                     <td class="J-A">Death of a Party Girl</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Blu-Swing</td>
+                    <td class="J-Ab">Sunset (2019 Y.Nakamura Remastering)</td>
+                    <td class="J-A">BLU-SWING 10th ANNIVERSARY BEST</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Snail Mail</td>
+                    <td class="J-Ab">Ben Franklin</td>
+                    <td class="J-A">Valentine</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Hayley Heynderickx</td>
+                    <td class="J-Ab">Jo</td>
+                    <td class="J-A">I Need to Start a Garden</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Hayley Heynderick</td>
+                    <td class="J-Ab">Untitled God Song</td>
+                    <td class="J-A">I Need to Start a Garden</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Beach Bunny</td>
+                    <td class="J-Ab">Audlting</td>
+                    <td class="J-A">Prom Queen</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Snail Mail</td>
+                    <td class="J-Ab">Madonna</td>
+                    <td class="J-A">Madonna</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Crumb</td>
+                    <td class="J-Ab">L.A.</td>
+                    <td class="J-A">Ice Melt</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">No Vacation</td>
+                    <td class="J-Ab">Walzting Back</td>
+                    <td class="J-A">Waltzing Back</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Japanese Breakfast</td>
+                    <td class="J-Ab">2042</td>
+                    <td class="J-A">Polyvinyl 4-Track Singles Series, Vol. 3</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">julie</td>
+                    <td class="J-Ab">flutter</td>
+                    <td class="J-A">flutter</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">King Krule</td>
+                    <td class="J-Ab">Stoned Again - Live</td>
+                    <td class="J-A">Stoned Again (Live)</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Kadhja Bonet</td>
+                    <td class="J-Ab">Fairweather Friend</td>
+                    <td class="J-A">The Visitor</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Kadhja Bonet</td>
+                    <td class="J-Ab">Mother Maybe</td>
+                    <td class="J-A">Childqueen</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Yurie Kokubu</td>
+                    <td class="J-Ab">とばしてTaxi Man</td>
+                    <td class="J-A">Relief 72 hours</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">beabadoobee</td>
+                    <td class="J-Ab">Cologne</td>
+                    <td class="J-A">Our Extended Play</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Beach Bunny</td>
+                    <td class="J-Ab">Colorblind</td>
+                    <td class="J-A">Honeymoon</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">The Marias</td>
+                    <td class="J-Ab">Little by Little</td>
+                    <td class="J-A">Little by Little</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Beach House</td>
+                    <td class="J-Ab">Other People</td>
+                    <td class="J-A">Bloom</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">HARU NEMURI</td>
+                    <td class="J-Ab">harutosyura</td>
+                    <td class="J-A">harutosyura</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Kero Kero Bonito</td>
+                    <td class="J-Ab">Only Acting</td>
+                    <td class="J-A">TOTEP</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Mia Porter</td>
+                    <td class="J-Ab">cowboy</td>
+                    <td class="J-A">okay</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Mia Porter</td>
+                    <td class="J-Ab">daisies</td>
+                    <td class="J-A">okay</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Ichiko Aoba</td>
+                    <td class="J-Ab">神様のたくらみ</td>
+                    <td class="J-A">マホロボシヤ</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Tennis</td>
+                    <td class="J-Ab">Runner</td>
+                    <td class="J-A">Swimmer</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">SE SO NEON</td>
+                    <td class="J-Ab">Gurumi</td>
+                    <td class="J-A">Summer Plumage</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">SE SO NEON</td>
+                    <td class="J-Ab">A Long Dream</td>
+                    <td class="J-A">A Long Dream</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">SE SO NEON</td>
+                    <td class="J-Ab">Jayu 자유</td>
+                    <td class="J-A">Jayu 자유</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Weyes Blood</td>
+                    <td class="J-Ab">A Lot's Gonna Change</td>
+                    <td class="J-A">Titanic Rising</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Molchat Doma</td>
+                    <td class="J-Ab">Судно (Борис Рижий)</td>
+                    <td class="J-A">Этажи</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Ruru</td>
+                    <td class="J-Ab">I Forgot</td>
+                    <td class="J-A">I Forgot</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">King Krule</td>
+                    <td class="J-Ab">Slush Puppy</td>
+                    <td class="J-A">The OOZ</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">The Marias</td>
+                    <td class="J-Ab">Basta Ya</td>
+                    <td class="J-A">Superclean, Vol. I</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Men I Trust</td>
+                    <td class="J-Ab">Lucky Sue</td>
+                    <td class="J-A">Lucky Sue</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Kero Kero Bonito</td>
+                    <td class="J-Ab">Well Rested</td>
+                    <td class="J-A">Civilisation II</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Kero Kero Bonito</td>
+                    <td class="J-Ab">You Know How It Is</td>
+                    <td class="J-A">TOTEP</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Kadhja Bonet</td>
+                    <td class="J-Ab">The Visitor</td>
+                    <td class="J-A">The Visitor</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">pâle regard</td>
+                    <td class="J-Ab">Bus de nuit</td>
+                    <td class="J-A">Bus de nuit</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">pâle regard</td>
+                    <td class="J-Ab">Reflets</td>
+                    <td class="J-A">Reflets</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">SE SO NEON</td>
+                    <td class="J-Ab">Summer Plumage 여름깃</td>
+                    <td class="J-A">Summer Plumage 여름깃</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Salami Rose Joe Louis</td>
+                    <td class="J-Ab">Cyanotype of Blue</td>
+                    <td class="J-A">Zlaty Sauce Nephew</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Her's</td>
+                    <td class="J-Ab">What Once Was</td>
+                    <td class="J-A">Song of Her's</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Mac DeMarco</td>
+                    <td class="J-Ab">Another One</td>
+                    <td class="J-A">Another One</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Kid Bloom</td>
+                    <td class="J-Ab">Hazy Miss Daisy</td>
+                    <td class="J-A">A Different State of Mind</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Selmer</td>
+                    <td class="J-Ab">Feelin' Down</td>
+                    <td class="J-A">Feelin' Down</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">boy pablo</td>
+                    <td class="J-Ab">Ready / Problems</td>
+                    <td class="J-A">Roy Pablo</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Shook</td>
+                    <td class="J-Ab">I Will Be There</td>
+                    <td class="J-A">I Will Be There</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">STRFKR</td>
+                    <td class="J-Ab">Golden Light</td>
+                    <td class="J-A">Miracle Mile</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Ichiko Aoba</td>
+                    <td class="J-Ab">Kokoro no Sekai - "gift" live ver.</td>
+                    <td class="J-A">"gift" at Sogetsu Hall (Live)</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Meltt</td>
+                    <td class="J-Ab">Love Again</td>
+                    <td class="J-A">Love Again</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Feng Suave</td>
+                    <td class="J-Ab">Sink into the Floor</td>
+                    <td class="J-A">Feng Suave</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Kid Bloom</td>
+                    <td class="J-Ab">Different State of Mind</td>
+                    <td class="J-A">A Different State of Mind</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Sunset Rollercoaster</td>
+                    <td class="J-Ab">My Jinji</td>
+                    <td class="J-A">Jinji Kikko</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Faye Webster</td>
+                    <td class="J-Ab">Kingston</td>
+                    <td class="J-A">Atlanta Millionaires Club</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">King Krule</td>
+                    <td class="J-Ab">Underclass</td>
+                    <td class="J-A">Man Alive!</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Kid Bloom</td>
+                    <td class="J-Ab">Lately It Feels Alright</td>
+                    <td class="J-A">A Different State of Mind</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">SE SO NEON</td>
+                    <td class="J-Ab">The Wave 파도</td>
+                    <td class="J-A">The Wave 파도</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">banzai florist</td>
+                    <td class="J-Ab">Real Life</td>
+                    <td class="J-A">Real Life</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Arcade Fire</td>
+                    <td class="J-Ab">The Suburbs</td>
+                    <td class="J-A">The Suburbs</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">Arcade Fire</td>
+                    <td class="J-Ab">Modern Man</td>
+                    <td class="J-A">The Suburbs</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">TV Girl</td>
+                    <td class="J-Ab">Cigarettes out the Window</td>
+                    <td class="J-A">Who Really Cares</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">No Vacation</td>
+                    <td class="J-Ab">Beach Bummer</td>
+                    <td class="J-A">Amo XO</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">No Vacation</td>
+                    <td class="J-Ab">Dræm Girl</td>
+                    <td class="J-A">Summer Break Mixtape</td>
+                </tr>
+                <tr>
+                    <td class="J-Aa">No Vacation</td>
+                    <td class="J-Ab">Lovefool</td>
+                    <td class="J-A">Amo XO</td>
                 </tr>
             </div>
             <tr>
-                <td class="M-A">Kim Oki</td>
-                <td class="M-A">Cotard's Syndrome</td>
-                <td class="M-A">Spirit Advance Unit</td>
-            </tr>
-            <tr>
-                <td class="M-A">Enji</td>
-                <td class="M-A">Gandii Mod</td>
-                <td class="M-A">Ursgal</td>
-            </tr>
-            <tr>
-                <td class="M-A">Tatsuro Yamashita, Akiko Yano</td>
-                <td class="M-A">Supurinkurah (Sprinkler)</td>
-                <td class="M-A">Piano Nightly</td>
-            </tr>
-            <tr>
-                <td class="M-A">Margo Guryan</td>
-                <td class="M-A">Sunday Morning</td>
-                <td class="M-A">27 Demos</td>
-            </tr>
-            <tr>
-                <td class="M-A">Piero Umiliani</td>
-                <td class="M-A">Un' Isola Felice - Extended Version</td>
-                <td class="M-A">La Ragazza Dalla Pelle Di Luna</td>
-            </tr>
-            <tr>
-                <td class="M-A">CHAI</td>
-                <td class="M-A">ほれちゃった</td>
-                <td class="M-A">PINK</td>
-            </tr>
-            <tr>
-                <td class="M-A">Unknown Mortal Orchestra</td>
-                <td class="M-A">SB-09</td>
-                <td class="M-A">SB-09</td>
-            </tr>
-            <tr>
-                <td class="M-A">Mort Garson</td>
-                <td class="M-A">Baby's Tears Blues</td>
-                <td class="M-A">Mother Earth's Plantasia</td>
-            </tr>
-            <tr>
-                <td class="M-A">Hako Yamazaki</td>
-                <td class="M-A">Utaitaino</td>
-                <td class="M-A">Hako Yamazaki Best Collection</td>
-            </tr>
-            <tr>
-                <td class="M-A">Perotá Chingó</td>
-                <td class="M-A">Canción Pequeña</td>
-                <td class="M-A">Aguas</td>
-            </tr>
-            <tr>
-                <td class="M-A">Perotá Chingó</td>
-                <td class="M-A">Certo</td>
-                <td class="M-A">Aguas</td>
-            </tr>
-            <tr>
-                <td class="M-A">SALES</td>
-                <td class="M-A">Getting It On</td>
-                <td class="M-A">SALES - EP</td>
-            </tr>
-            <tr>
-                <td class="M-A">Brad Stank</td>
-                <td class="M-A">Maithuna</td>
-                <td class="M-A">Eternal Slowdown</td>
-            </tr>
-            <tr>
-                <td class="M-A">Gábor Szabó</td>
-                <td class="M-A">Stormy</td>
-                <td class="M-A">1969</td>
-            </tr>
-            <tr>
-                <td class="M-A">Night Moves</td>
-                <td class="M-A">Coconut Grove</td>
-                <td class="M-A">Can You Really Find Me</td>
-            </tr>
-            <tr>
-                <td class="M-A">Gábor Szabó</td>
-                <td class="M-A">(Just A Little) Communication</td>
-                <td class="M-A">High Contrast</td>
-            </tr>
-            <tr>
-                <td onmouseover="change()" class="M-A">Dorothy Ashby</td>
-                <td class="M-A">Theme From "Valley Of The Dolls"</td>
-                <td class="M-A">Afro-Harping</td>
-            </tr>
-            <tr>
-              <td class="M-B">Parallelephants</td>
-              <td class="M-B">Reasons Don't Define</td>
-              <td class="M-B">Supply</td>
-            </tr>
-            <tr>
-              <td class="M-B">Ruru</td>
-              <td class="M-B">Another</td>
-              <td class="M-B">Far Out</td>
-            </tr>
-            <tr>
-              <td class="M-B">Tame Impala</td>
-              <td class="M-B">New Person, Same Old Mistakes</td>
-              <td class="M-B">Currents</td>
-            </tr>
-            <tr>
-              <td class="M-B">Part Time</td>
-              <td class="M-B">Night Drive</td>
-              <td class="M-B">P.D.A.</td>
-            </tr>
-            <tr>
-              <td class="M-B">Sunshine Brothers Inc.</td>
-              <td class="M-B">In Your Dreams</td>
-              <td class="M-B">In Your Dreams</td>
-            </tr>
-            <tr>
-              <td class="M-B">TV Girl</td>
-              <td class="M-B">My Girlfriend</td>
-              <td class="M-B">Lonely Women</td>
-            </tr>
-            <tr>
-              <td class="M-B">TV Girl</td>
-              <td class="M-B">Pretty Boy</td>
-              <td class="M-B">Death of a Party Girl</td>
-            </tr>
-            <tr>
-              <td class="M-B">The Marias, Triathalon</td>
-              <td class="M-B">Drip</td>
-              <td class="M-B">Drip</td>
-            </tr>
-            <tr>
-              <td class="M-B">SadGirl</td>
-              <td class="M-B">Little Queenie</td>
-              <td class="M-B">Vol. Three: The Hand That Did the Deed</td>
-            </tr>
-            <tr>
-              <td class="M-B">Girlpool</td>
-              <td class="M-B">Cut Your Bangs</td>
-              <td class="M-B">Chinatown</td>
-            </tr>
-            <tr>
-              <td class="M-B">Sugar Candy Mountain</td>
-              <td class="M-B">666</td>
-              <td class="M-B">666</td>
-            </tr>
-            <tr>
-              <td class="M-B">Max Gardener</td>
-              <td class="M-B">This Day & Age</td>
-              <td class="M-B">Stirrings</td>
-            </tr>
-            <tr>
-              <td class="M-B">Gus Dapperton</td>
-              <td class="M-B">Coax & Botany</td>
-              <td class="M-B">Where Polly People Go to Read</td>
-            </tr>
-            <tr>
-              <td class="M-B">Gus Dapperton</td>
-              <td class="M-B">Roadhead</td>
-              <td class="M-B">Where Polly People Go to Read</td>
-            </tr>
-            <tr>
-              <td class="M-B">Gus Dapperton</td>
-              <td class="M-B">Sockboy</td>
-              <td class="M-B">Where Polly People Go to Read</td>
-            </tr>
-            <tr>
-              <td class="M-B">Monsune</td>
-              <td class="M-B">Nothing in Return</td>
-              <td class="M-B">Nothing in Return</td>
-            </tr>
-            <tr>
-              <td class="M-B">SE SO NEON</td>
-              <td class="M-B">New Youth 새소년</td>
-              <td class="M-B">Summer Plumage 여름깃</td>
-            </tr>
-            <tr>
-              <td class="M-B">SE SO NEON</td>
-              <td class="M-B">I'm Watching a Loneliness Just Arisen 나는 새롭게 떠오른 외로움을 봐요</td>
-              <td class="M-B">Summer Plumage 여름깃</td>
-            </tr>
-            <tr>
-              <td class="M-B">Max Gardener</td>
-              <td class="M-B">Dalamatia</td>
-              <td class="M-B">Memory Lounge</td>
-            </tr>
-            <tr>
-              <td class="M-B">Nicotine's Famous Honey, Nicotine</td>
-              <td class="M-B">Pull Up</td>
-              <td class="M-B">Pull Up</td>
-            </tr>
-            <tr>
-              <td class="M-B">Rainbow Kitten Surprise</td>
-              <td class="M-B">Fever Pitch</td>
-              <td class="M-B">How to: Friend, Love, Freefall</td>
-            </tr>
-            <tr>
-              <td class="M-B">Rainbow Kitten Surprise</td>
-              <td class="M-B">Polite Company</td>
-              <td class="M-B">How to: Friend, Love, Freefall</td>
-            </tr>
-            <tr>
-              <td class="M-B">King Krule</td>
-              <td class="M-B">Biscuit Town</td>
-              <td class="M-B">The OOZ</td>
-            </tr>
-            <tr>
-              <td class="M-B">Jaunt</td>
-              <td class="M-B">Gentle Reminder</td>
-              <td class="M-B">Chat</td>
-            </tr>
-            <tr>
-              <td class="M-B">Julia Jacklin</td>
-              <td class="M-B">Pool Party</td>
-              <td class="M-B">Don't Let The Kids Win</td>
-            </tr>
-            <tr>
-              <td class="M-B">Lady Lamb</td>
-              <td class="M-B">Crane Your Neck</td>
-              <td class="M-B">Ripely Pine</td>
-            </tr>
-            <tr>
-              <td class="M-B">IAN SWEET</td>
-              <td class="M-B">#23</td>
-              <td class="M-B">Shapeshifter</td>
-            </tr>
-            <tr>
-              <td class="M-B">Lomelda</td>
-              <td class="M-B">Hannah Sun</td>
-              <td class="M-B">Hannah</td>
-            </tr>
-            <tr>
-              <td class="M-B">Lomelda</td>
-              <td class="M-B">Interstate Vision</td>
-              <td class="M-B">Thx</td>
-            </tr>
-            <tr>
-              <td class="M-B">Lomelda</td>
-              <td class="M-B">Far Out</td>
-              <td class="M-B">Thx</td>
-            </tr>
-            <tr>
-              <td class="M-B">Washed Out</td>
-              <td class="M-B">Feel It All Around</td>
-              <td class="M-B">Life Of Leisure</td>
-            </tr>
-            <tr>
-              <td class="M-B">London O'Connor</td>
-              <td class="M-B">GUTS</td>
-              <td class="M-B">OΔ</td>
-            </tr>
-            <tr>
-              <td class="M-B">Denitia and Sene</td>
-              <td class="M-B">casanova.</td>
-              <td class="M-B">his and hers.</td>
-            </tr>
-            <tr>
-              <td class="M-B">Silk Rhodes</td>
-              <td class="M-B">Pains</td>
-              <td class="M-B">Silk Rhodes</td>
-            </tr>
-            <tr>
-              <td class="M-B">Vista Kicks</td>
-              <td class="M-B">Marcelline</td>
-              <td class="M-B">Chasing Waves</td>
-            </tr>
-            <tr>
-              <td class="M-B">Cambriana</td>
-              <td class="M-B">Vegas</td>
-              <td class="M-B">House of Tolerance</td>
-            </tr>
-            <tr>
-              <td class="M-B">BROCK- HAMPTON</td>
-              <td class="M-B">BLEACH</td>
-              <td class="M-B">SATURATION III</td>
-            </tr>
-            <tr>
-              <td class="M-B">BROCK- HAMPTON</td>
-              <td class="M-B">BOY BYE</td>
-              <td class="M-B">GINGER</td>
-            </tr>
-            <tr>
-              <td class="M-B">Yeek</td>
-              <td class="M-B">Only in the West</td>
-              <td class="M-B">Only in the West</td>
-            </tr>
-            <tr>
-              <td class="M-B">BROCK- HAMPTON</td>
-              <td class="M-B">NO HALO</td>
-              <td class="M-B">GINGER</td>
-            </tr>
-            <tr>
-              <td class="M-B">maye</td>
-              <td class="M-B">Tú</td>
-              <td class="M-B">Tú</td>
-            </tr>
-            <tr>
-              <td class="M-B">Girlpool</td>
-              <td class="M-B">Cut Your Bangs</td>
-              <td class="M-B">Chinatown</td>
-            </tr>
-            <tr>
-              <td class="J-B">Momma</td>
-              <td class="J-B">Biohazard</td>
+              <td class="J-Ba">Momma</td>
+              <td class="J-Bb">Biohazard</td>
               <td class="J-B">Two of Me</td>
             </tr>
             <tr>
-              <td class="J-B">HALCALI</td>
-              <td class="J-B">おつかれSUMMER</td>
+              <td class="J-Ba">HALCALI</td>
+              <td class="J-Bb">おつかれSUMMER</td>
               <td class="J-B">ハルカリベーコン</td>
             </tr>
             <tr>
-              <td class="J-B">Night Tapes</td>
+              <td class="J-Ba">Night Tapes</td>
+              <td class="J-Bb">Forever</td>
               <td class="J-B">Forever</td>
-              <td class="J-B">Forever</td>
             </tr>
             <tr>
-              <td class="J-B">Elita</td>
+              <td class="J-Ba">Elita</td>
+              <td class="J-Bb">Sour Switchblade</td>
               <td class="J-B">Sour Switchblade</td>
-              <td class="J-B">Sour Switchblade</td>
             </tr>
             <tr>
-              <td class="J-B">Enjoy</td>
-              <td class="J-B">Lounge Thoughts</td>
+              <td class="J-Ba">Enjoy</td>
+              <td class="J-Bb">Lounge Thoughts</td>
               <td class="J-B">Lounge Thoughts</td>
             </tr>
             <tr>
-              <td class="J-B">Inner Wave</td>
-              <td class="J-B">Fever</td>
+              <td class="J-Ba">Inner Wave</td>
+              <td class="J-Bb">Fever</td>
               <td class="J-B">Apoptosis</td>
             </tr>
             <tr>
-              <td class="J-B">Sunset Rollercoaster</td>
-              <td class="J-B">Let There Be Light Again</td>
+              <td class="J-Ba">Sunset Rollercoaster</td>
+              <td class="J-Bb">Let There Be Light Again</td>
               <td class="J-B">TV animation "SONNY BOY" original soundtrack</td>
             </tr>
             <tr>
-              <td class="J-B">Boyish</td>
-              <td class="J-B">AnDroGay</td>
+              <td class="J-Ba">Boyish</td>
+              <td class="J-Bb">AnDroGay</td>
               <td class="J-B">Garden Spider</td>
             </tr>
             <tr>
-              <td class="J-B">Tennis</td>
-              <td class="J-B">Need Your Love</td>
+              <td class="J-Ba">Tennis</td>
+              <td class="J-Bb">Need Your Love</td>
               <td class="J-B">Swimmer</td>
             </tr>
             <tr>
-              <td class="J-B">Tennis</td>
-              <td class="J-B">In the Morning I'll Be Better</td>
+              <td class="J-Ba">Tennis</td>
+              <td class="J-Bb">In the Morning I'll Be Better</td>
               <td class="J-B">Yours Conditionally</td>
             </tr>
             <tr>
-              <td class="J-B">Ana Frango Elétrico</td>
-              <td class="J-B">Mulher Homem Bicho</td>
+              <td class="J-Ba">Ana Frango Elétrico</td>
+              <td class="J-Bb">Mulher Homem Bicho</td>
               <td class="J-B">Mulher Homem Bicho</td>
             </tr>
             <tr>
-              <td class="J-B">Hana Vu</td>
-              <td class="J-B">One</td>
+              <td class="J-Ba">Hana Vu</td>
+              <td class="J-Bb">One</td>
               <td class="J-B">How Many Times Have You Driven By</td>
             </tr>
             <tr>
-              <td class="J-B">Dianna Lopez</td>
-              <td class="J-B">Euphoria</td>
+              <td class="J-Ba">Dianna Lopez</td>
+              <td class="J-Bb">Euphoria</td>
               <td class="J-B">Euphoria</td>
             </tr>
             <tr>
-              <td class="J-B">Half Waif</td>
-              <td class="J-B">Orange Blossoms</td>
+              <td class="J-Ba">Half Waif</td>
+              <td class="J-Bb">Orange Blossoms</td>
               <td class="J-B">Mythopoetics</td>
             </tr>
             <tr>
-              <td class="J-B">Sir Chloe</td>
+              <td class="J-Ba">Sir Chloe</td>
+              <td class="J-Bb">Femme Fatale</td>
               <td class="J-B">Femme Fatale</td>
-              <td class="J-B">Femme Fatale</td>
             </tr>
             <tr>
-              <td class="J-B">Michele Leigh</td>
+              <td class="J-Ba">Michele Leigh</td>
+              <td class="J-Bb">Sunflower</td>
               <td class="J-B">Sunflower</td>
-              <td class="J-B">Sunflower</td>
             </tr>
             <tr>
-              <td class="J-B">YONLAPA</td>
+              <td class="J-Ba">YONLAPA</td>
+              <td class="J-Bb">Sweetest Cure</td>
               <td class="J-B">Sweetest Cure</td>
-              <td class="J-B">Sweetest Cure</td>
             </tr>
             <tr>
-              <td class="J-B">Miso</td>
-              <td class="J-B">Slow Running</td>
+              <td class="J-Ba">Miso</td>
+              <td class="J-Bb">Slow Running</td>
               <td class="J-B">Slow Running</td>
             </tr>
             <tr>
-              <td class="J-B">julie</td>
-              <td class="J-B">lochness</td>
+              <td class="J-Ba">julie</td>
+              <td class="J-Bb">lochness</td>
               <td class="J-B">pushign daisies</td>
             </tr>
             <tr>
-              <td class="J-B">Inner Wave</td>
-              <td class="J-B">1 4 2</td>
+              <td class="J-Ba">Inner Wave</td>
+              <td class="J-Bb">1 4 2</td>
               <td class="J-B">Sun Transmission</td>
             </tr>
             <tr>
-              <td class="J-B">Inner Wave</td>
-              <td class="J-B">Eclipse</td>
+              <td class="J-Ba">Inner Wave</td>
+              <td class="J-Bb">Eclipse</td>
               <td class="J-B">Underwater Pipe Dreams</td>
             </tr>
             <tr>
-              <td class="J-B">Slow Pulp</td>
-              <td class="J-B">High</td>
+              <td class="J-Ba">Slow Pulp</td>
+              <td class="J-Bb">High</td>
               <td class="J-B">Big Day</td>
             </tr>
             <tr>
-              <td class="J-B">Tanuicahn</td>
-              <td class="J-B">Hunned Bandz</td>
+              <td class="J-Ba">Tanuicahn</td>
+              <td class="J-Bb">Hunned Bandz</td>
               <td class="J-B">Sundays</td>
             </tr>
             <tr>
-              <td class="J-B">Men I Trust</td>
-              <td class="J-B">Say Can You Hear (Album V)</td>
+              <td class="J-Ba">Men I Trust</td>
+              <td class="J-Bb">Say Can You Hear (Album V)</td>
               <td class="J-B">Oncle Jazz</td>
             </tr>
             <tr>
-              <td class="J-B">Tanukichan</td>
-              <td class="J-B">This Time</td>
+              <td class="J-Ba">Tanukichan</td>
+              <td class="J-Bb">This Time</td>
               <td class="J-B">Sundays</td>
             </tr>
             <tr>
-              <td class="J-B">Sweet Trip</td>
-              <td class="J-B">In Sound, We Found Each Other</td>
+              <td class="J-Ba">Sweet Trip</td>
+              <td class="J-Bb">In Sound, We Found Each Other</td>
               <td class="J-B">Emotion</td>
             </tr>
             <tr>
-              <td class="J-B">Fever the Ghost</td>
-              <td class="J-B">Sun Moth</td>
+              <td class="J-Ba">Fever the Ghost</td>
+              <td class="J-Bb">Sun Moth</td>
               <td class="J-B">Zirconium Meconium</td>
+            </tr>
+
+
+
+<!-- MEGAN -->
+            <tr>
+                <td class="M-Aa">Kim Oki</td>
+                <td class="M-Ab">Cotard's Syndrome</td>
+                <td class="M-A">Spirit Advance Unit</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Enji</td>
+                <td class="M-Ab">Gandii Mod</td>
+                <td class="M-A">Ursgal</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Tatsuro Yamashita, Akiko Yano</td>
+                <td class="M-Ab">Supurinkurah (Sprinkler)</td>
+                <td class="M-A">Piano Nightly</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Margo Guryan</td>
+                <td class="M-Ab">Sunday Morning</td>
+                <td class="M-A">27 Demos</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Piero Umiliani</td>
+                <td class="M-Ab">Un' Isola Felice - Extended Version</td>
+                <td class="M-A">La Ragazza Dalla Pelle Di Luna</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">CHAI</td>
+                <td class="M-Ab">ほれちゃった</td>
+                <td class="M-A">PINK</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Unknown Mortal Orchestra</td>
+                <td class="M-Ab">SB-09</td>
+                <td class="M-A">SB-09</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Mort Garson</td>
+                <td class="M-Ab">Baby's Tears Blues</td>
+                <td class="M-A">Mother Earth's Plantasia</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Hako Yamazaki</td>
+                <td class="M-Ab">Utaitaino</td>
+                <td class="M-A">Hako Yamazaki Best Collection</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Perotá Chingó</td>
+                <td class="M-Ab">Canción Pequeña</td>
+                <td class="M-A">Aguas</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Perotá Chingó</td>
+                <td class="M-Ab">Certo</td>
+                <td class="M-A">Aguas</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">SALES</td>
+                <td class="M-Ab">Getting It On</td>
+                <td class="M-A">SALES - EP</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Brad Stank</td>
+                <td class="M-Ab">Maithuna</td>
+                <td class="M-A">Eternal Slowdown</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Gábor Szabó</td>
+                <td class="M-Ab">Stormy</td>
+                <td class="M-A">1969</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Night Moves</td>
+                <td class="M-Ab">Coconut Grove</td>
+                <td class="M-A">Can You Really Find Me</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Gábor Szabó</td>
+                <td class="M-Ab">(Just A Little) Communication</td>
+                <td class="M-A">High Contrast</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Dorothy Ashby</td>
+                <td class="M-Ab">Theme From "Valley Of The Dolls"</td>
+                <td class="M-A">Afro-Harping</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">¿Téo?, Lido</td>
+                <td class="M-Ab">Belong in the Sun</td>
+                <td class="M-A">¿Téo?</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Ryo Rukui</td>
+                <td class="M-Ab">Scenery</td>
+                <td class="M-A">シーナリィ</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Men I Trust</td>
+                <td class="M-Ab">Break for Lovers (Live)</td>
+                <td class="M-A">Forever Live Sessions</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Helvetia</td>
+                <td class="M-Ab">Junk Shop</td>
+                <td class="M-A">Helveetia's Junk Shop</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">イイダサトミ</td>
+                <td class="M-Ab">FLY ME TO THE MOON (新世紀エヴァンゲリオン)</td>
+                <td class="M-A">熱烈!アニソン魂 THE BEST カバー楽曲集 TVアニメシリーズ「新世紀エヴァンゲリオンシリーズ」</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sade</td>
+                <td class="M-Ab">The Sweetest Taboo</td>
+                <td class="M-A">Promise</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Brooklyn Boogaloo Blowout</td>
+                <td class="M-Ab">Trailer Park Boys Theme Song</td>
+                <td class="M-A">The Boog at Sunny's</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">稲垣次郎とソウル・メディア</td>
+                <td class="M-Ab">ブリーズ</td>
+                <td class="M-A">ファンキー・スタッフ</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Happyness</td>
+                <td class="M-Ab">Weird Little Birthday Girl</td>
+                <td class="M-A">Weird Little Bithday Girl</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Jack and Eliza</td>
+                <td class="M-Ab">Hold the Line</td>
+                <td class="M-A">Gentle Warnings</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">infinite bisous</td>
+                <td class="M-Ab">Sex Dream; Marine</td>
+                <td class="M-A">Period</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Santana</td>
+                <td class="M-Ab">Black Magic Woman - Single Version</td>
+                <td class="M-A">Santana's Greatest Hits</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Santana</td>
+                <td class="M-Ab">Samba Pa Ti</td>
+                <td class="M-A">Abraxas</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Khruangbin</td>
+                <td class="M-Ab">The Number 3</td>
+                <td class="M-A">The Infamous Bill</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Khruangbin</td>
+                <td class="M-Ab">White Gloves</td>
+                <td class="M-A">The Universe Smiles Upon You</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Extra Golden</td>
+                <td class="M-Ab">It's Not Easy</td>
+                <td class="M-A">Ok-Oyot System</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">The Meters</td>
+                <td class="M-Ab">Stormy</td>
+                <td class="M-A">The Meters</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Alessi Brothers</td>
+                <td class="M-Ab">Seabird</td>
+                <td class="M-A">The Best Of The Alessi Brothers</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Widospeak</td>
+                <td class="M-Ab">The Good Ones</td>
+                <td class="M-A">Plum</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sinj Clarke</td>
+                <td class="M-Ab">Una Horas</td>
+                <td class="M-A">I Fell in Love, Again / Unas Horas</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">WEDNESDAY CAMPANELLA</td>
+                <td class="M-Ab">melos</td>
+                <td class="M-A">Galapagos</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Triathalon</td>
+                <td class="M-Ab">Chill Out</td>
+                <td class="M-A">Nothing Bothers Me</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Durand Jones & The Indications, Y La Bamba</td>
+                <td class="M-Ab">Cruisin' to the Parque feat. Y La Bamba</td>
+                <td class="M-A">Cruisin' to the Parque feat. Y La Bamb</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">Soft Storm</td>
+                <td class="M-A">SOFT STORM</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Marcos Valle</td>
+                <td class="M-Ab">Fogo do Sol</td>
+                <td class="M-A">Marcos Valle</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Erroll Garner</td>
+                <td class="M-Ab">Misty</td>
+                <td class="M-A">Plays Misty</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">World Brain</td>
+                <td class="M-Ab">Everybody Dies</td>
+                <td class="M-A">Peer 2 Peer</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Chicano Batman</td>
+                <td class="M-Ab">Fantasía</td>
+                <td class="M-A">Cycles of Existential Rhyme</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">DOPE LEMON</td>
+                <td class="M-Ab">Hey Little Baby</td>
+                <td class="M-A">Smooth Big Cat</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Alice Phoebe Lou</td>
+                <td class="M-Ab">Something Holy - Live at Funkhaus, 2019</td>
+                <td class="M-A">Live at Funkhaus</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Makoto Matsushita</td>
+                <td class="M-Ab">Love Was Really Gone - 2018 Remaster</td>
+                <td class="M-A">FIRST LIGHT (2018 Remaster)</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Dorothy Ashby</td>
+                <td class="M-Ab">The Windmills Of Your Mind</td>
+                <td class="M-A">Dorothy's Harp</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">WEDNESDAY CAMPANELLA</td>
+                <td class="M-Ab">Ikkyu-san</td>
+                <td class="M-A">SUPERMAN</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Jeff Chang</td>
+                <td class="M-Ab">過火</td>
+                <td class="M-A">寬容</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">痴情意外</td>
+                <td class="M-Ab">Priscilla Chan</td>
+                <td class="M-A">反叛</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">シルエット・ロマンス</td>
+                <td class="M-Ab">Junko Ohashi</td>
+                <td class="M-A">ネオ・ヒストリー</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">JORDANN, MUNYA</td>
+                <td class="M-Ab">Naoko</td>
+                <td class="M-A">Naoko</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Ric Wilson, Yellow Days</td>
+                <td class="M-Ab">LOVE BLOOM</td>
+                <td class="M-A">Disco Ric in London Town</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">TOPS</td>
+                <td class="M-Ab">Petals</td>
+                <td class="M-A">Sugar at the Gate</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Perotá Chingó, Chancha Via Circuito</td>
+                <td class="M-Ab">Reverdecer (Remix)</td>
+                <td class="M-A">Reverdecer (Remix)</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Big Thief</td>
+                <td class="M-Ab">Shark Smile - Edit</td>
+                <td class="M-A">Shark Smile (Edit)</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Big Thief</td>
+                <td class="M-Ab">UFOF</td>
+                <td class="M-A">U.F.O.F.</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Big Thief</td>
+                <td class="M-Ab">Vegas</td>
+                <td class="M-A">Masterpiece</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Big Thief</td>
+                <td class="M-Ab">Real Love</td>
+                <td class="M-A">Masterpiece</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sports</td>
+                <td class="M-Ab">You Are the Right One</td>
+                <td class="M-A">Naked All the Time</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sports</td>
+                <td class="M-Ab">Panama</td>
+                <td class="M-A">Naked All the Time</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sports</td>
+                <td class="M-Ab">Shiggy</td>
+                <td class="M-A">Everyone's Invited</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sports</td>
+                <td class="M-Ab">Never Fall in Love</td>
+                <td class="M-A">Everyone's Invited</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sports</td>
+                <td class="M-Ab">No Pressure</td>
+                <td class="M-A">Everyone's Invited</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sports</td>
+                <td class="M-Ab">Cadillac</td>
+                <td class="M-A">Everyone's Invited</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">The Holydrug Couple</td>
+                <td class="M-Ab">Vertigo</td>
+                <td class="M-A">Vertigo / Valle de los Espejos</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Radiohead</td>
+                <td class="M-Ab">Present Tense</td>
+                <td class="M-A">A Moon Shaped Pool</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">セキトオ・シゲオ</td>
+                <td class="M-Ab">ザ・ワードII</td>
+                <td class="M-A">華麗なるエレクトーン -ザ・ワード-</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Cortex</td>
+                <td class="M-Ab">Chanson d'un jour d'hiver</td>
+                <td class="M-A">Troupeau bleu</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Whitney</td>
+                <td class="M-Ab">No Woman</td>
+                <td class="M-A">Light Upon the Lake</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Whitney</td>
+                <td class="M-Ab">Polly</td>
+                <td class="M-A">Light Upon the Lake</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Men I Trust, Ghostly Kisses</td>
+                <td class="M-Ab">Again (feat. Ghostly Kisses)</td>
+                <td class="M-A">Headroom</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Hector Gachan</td>
+                <td class="M-Ab">Nice Guy</td>
+                <td class="M-A">Untitled '91</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">FLOOR CRY</td>
+                <td class="M-Ab">Drive</td>
+                <td class="M-A">Drive</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Clairo</td>
+                <td class="M-Ab">Sofia</td>
+                <td class="M-A">Drowsy</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Banes World</td>
+                <td class="M-Ab">Valentine's Curse</td>
+                <td class="M-A">Drowsy</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">The Walters</td>
+                <td class="M-Ab">Sweet Marie</td>
+                <td class="M-A">Young Men</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Unknown Mortal Orchestra</td>
+                <td class="M-Ab">Multi-Love</td>
+                <td class="M-A">Multi-Love</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Mcbaise, Maggarn</td>
+                <td class="M-Ab">Water Slide</td>
+                <td class="M-A">TUBES</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Michael Seyer</td>
+                <td class="M-Ab">Little China Boy</td>
+                <td class="M-A">Little China Boy</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Men I Trust</td>
+                <td class="M-Ab">Tailwhip</td>
+                <td class="M-A">Tailwhip</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">Almost Mature '87</td>
+                <td class="M-A">Cassa Nova</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">Greedy</td>
+                <td class="M-A">Cassa Nova</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">Cool of Lullaby</td>
+                <td class="M-A">Cassa Nova</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">Angel Disco Love</td>
+                <td class="M-A">Cassa Nova</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">Slow</td>
+                <td class="M-A">Cassa Nova</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">Oriental</td>
+                <td class="M-A">Cassa Nova</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">Summum Bonum</td>
+                <td class="M-A">Cassa Nova</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">Libidream</td>
+                <td class="M-A">Cassa Nova</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">10-Year-Taipei (Matured '17)</td>
+                <td class="M-A">Cassa Nova</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">Overlove</td>
+                <td class="M-A">SOFT STORM</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">Under the Skin</td>
+                <td class="M-A">SOFT STORM</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster, Michael Seyer</td>
+                <td class="M-Ab">Passerby</td>
+                <td class="M-A">SOFT STORM</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">Teahouse</td>
+                <td class="M-A">SOFT STORM</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">I Know You Know I Love You</td>
+                <td class="M-A">Bossa Nova</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">My Jinji</td>
+                <td class="M-A">Jinji Kikko</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Lounge FM</td>
+                <td class="M-Ab">Love Will Let You Down</td>
+                <td class="M-A">Love Will Let You Down</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Still Pigeon</td>
+                <td class="M-Ab">YDLMA</td>
+                <td class="M-A">Sunday Roost</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sunset Rollercoaster</td>
+                <td class="M-Ab">我是一隻魚 I'm a Fish</td>
+                <td class="M-A">我是一隻魚 I'm a Fish</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Emotional Oranges</td>
+                <td class="M-Ab">West Coast Love</td>
+                <td class="M-A">The Juice: Vol. II</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Tame Impala</td>
+                <td class="M-Ab">Borderline</td>
+                <td class="M-A">The Slow Rush</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Durand Jones & The Indications, Aaron Frazer</td>
+                <td class="M-Ab">Love Will Work It Out</td>
+                <td class="M-A">Love Will Work It Out</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Djo</td>
+                <td class="M-Ab">Chateau (Feel Alright)</td>
+                <td class="M-A">Twenty Twenty</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Devendra Banhart</td>
+                <td class="M-Ab">Jon Lends a Hand</td>
+                <td class="M-A">Ape in Pink Marble</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">The Long Faces</td>
+                <td class="M-Ab">Sum of My Cares</td>
+                <td class="M-A">Sum of My Cares</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">The Dig</td>
+                <td class="M-Ab">I Don't Need You Anymore</td>
+                <td class="M-A">Afternoon with Caroline</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Mia Joy</td>
+                <td class="M-Ab">Paradox</td>
+                <td class="M-A">Gemini Moon</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Mia Joy</td>
+                <td class="M-Ab">10,000</td>
+                <td class="M-A">Gemini Moon</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Shintaro Sakamoto</td>
+                <td class="M-Ab">死にませんが?</td>
+                <td class="M-A">できれば愛を</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Claud</td>
+                <td class="M-Ab">Scarlett</td>
+                <td class="M-A">Scarlett</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Sports</td>
+                <td class="M-Ab">Manicure</td>
+                <td class="M-A">Manicure</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">STRFKR</td>
+                <td class="M-Ab">Fuck Off</td>
+                <td class="M-A">Vault Vol. 2</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">STRFKR</td>
+                <td class="M-Ab">Beginner Space</td>
+                <td class="M-A">Vault Vol. 2</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Cuco</td>
+                <td class="M-Ab">Amor de Siempre</td>
+                <td class="M-A">wannabewithu</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Cuco</td>
+                <td class="M-Ab">Lo Que Siento</td>
+                <td class="M-A">Lo Que Siento</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Cuco</td>
+                <td class="M-Ab">Lover Is a Day</td>
+                <td class="M-A">wannabewithu</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">The Licks</td>
+                <td class="M-Ab">Lavender Kiss</td>
+                <td class="M-A">Lavender Kiss</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Dayglow</td>
+                <td class="M-Ab">Can I call You Tonight?</td>
+                <td class="M-A">Fuzzybrain</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">The Dig</td>
+                <td class="M-Ab">Home</td>
+                <td class="M-A">Afternoon with Caroline</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Alvvays</td>
+                <td class="M-Ab">Not My Baby</td>
+                <td class="M-A">Antisocialites</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">The Marias</td>
+                <td class="M-Ab">Basta Ya</td>
+                <td class="M-A">Superclean, Vol. I</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">The Marias</td>
+                <td class="M-Ab">Only in My Dreams</td>
+                <td class="M-A">Superclean, Vol. I</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">The Symposium</td>
+                <td class="M-Ab">The Physical Attractions</td>
+                <td class="M-A">The Symposium</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Black Pool</td>
+                <td class="M-Ab">Baby Please</td>
+                <td class="M-A">Joven Pirata</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Black Pool</td>
+                <td class="M-Ab">Cashmere Baby</td>
+                <td class="M-A">Joven Pirata</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">The Dig</td>
+                <td class="M-Ab">Moonlight Baby</td>
+                <td class="M-A">Moonlight Baby</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Love Tapes</td>
+                <td class="M-Ab">Baby</td>
+                <td class="M-A">Baby</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Michael Seyer</td>
+                <td class="M-Ab">Show Me How You Feel (Eros)</td>
+                <td class="M-A">Bad Bonez</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Michael Seyer</td>
+                <td class="M-Ab">Lucky Love</td>
+                <td class="M-A">Lucky Love</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Chromatics</td>
+                <td class="M-Ab">Cherry</td>
+                <td class="M-A">Cherry</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Kacey Johansing</td>
+                <td class="M-Ab">Hold Steady</td>
+                <td class="M-A">The Hiding</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Tennis</td>
+                <td class="M-Ab">My Emotions Are Blinding</td>
+                <td class="M-A">Yours Conditionally</td>
+            </tr>
+            <tr>
+                <td class="M-Aa">Case</td>
+                <td class="M-Ab">Days on a Wire</td>
+                <td class="M-A">Days on a Wire</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Parallelephants</td>
+              <td class="M-Bb">Reasons Don't Define</td>
+              <td class="M-B">Supply</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Ruru</td>
+              <td class="M-Bb">Another</td>
+              <td class="M-B">Far Out</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Tame Impala</td>
+              <td class="M-Bb">New Person, Same Old Mistakes</td>
+              <td class="M-B">Currents</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Part Time</td>
+              <td class="M-Bb">Night Drive</td>
+              <td class="M-B">P.D.A.</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Sunshine Brothers Inc.</td>
+              <td class="M-Bb">In Your Dreams</td>
+              <td class="M-B">In Your Dreams</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">TV Girl</td>
+              <td class="M-Bb">My Girlfriend</td>
+              <td class="M-B">Lonely Women</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">TV Girl</td>
+              <td class="M-Bb">Pretty Boy</td>
+              <td class="M-B">Death of a Party Girl</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">The Marias, Triathalon</td>
+              <td class="M-Bb">Drip</td>
+              <td class="M-B">Drip</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">SadGirl</td>
+              <td class="M-Bb">Little Queenie</td>
+              <td class="M-B">Vol. Three: The Hand That Did the Deed</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Girlpool</td>
+              <td class="M-Bb">Cut Your Bangs</td>
+              <td class="M-B">Chinatown</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Sugar Candy Mountain</td>
+              <td class="M-Bb">666</td>
+              <td class="M-B">666</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Max Gardener</td>
+              <td class="M-Bb">This Day & Age</td>
+              <td class="M-B">Stirrings</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Gus Dapperton</td>
+              <td class="M-Bb">Coax & Botany</td>
+              <td class="M-B">Where Polly People Go to Read</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Gus Dapperton</td>
+              <td class="M-Bb">Roadhead</td>
+              <td class="M-B">Where Polly People Go to Read</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Gus Dapperton</td>
+              <td class="M-Bb">Sockboy</td>
+              <td class="M-B">Where Polly People Go to Read</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Monsune</td>
+              <td class="M-Bb">Nothing in Return</td>
+              <td class="M-B">Nothing in Return</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">SE SO NEON</td>
+              <td class="M-Bb">New Youth 새소년</td>
+              <td class="M-B">Summer Plumage 여름깃</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">SE SO NEON</td>
+              <td class="M-Bb">I'm Watching a Loneliness Just Arisen 나는 새롭게 떠오른 외로움을 봐요</td>
+              <td class="M-B">Summer Plumage 여름깃</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Max Gardener</td>
+              <td class="M-Bb">Dalamatia</td>
+              <td class="M-B">Memory Lounge</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Nicotine's Famous Honey, Nicotine</td>
+              <td class="M-Bb">Pull Up</td>
+              <td class="M-B">Pull Up</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Rainbow Kitten Surprise</td>
+              <td class="M-Bb">Fever Pitch</td>
+              <td class="M-B">How to: Friend, Love, Freefall</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Rainbow Kitten Surprise</td>
+              <td class="M-Bb">Polite Company</td>
+              <td class="M-B">How to: Friend, Love, Freefall</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">King Krule</td>
+              <td class="M-Bb">Biscuit Town</td>
+              <td class="M-B">The OOZ</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Jaunt</td>
+              <td class="M-Bb">Gentle Reminder</td>
+              <td class="M-B">Chat</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Julia Jacklin</td>
+              <td class="M-Bb">Pool Party</td>
+              <td class="M-B">Don't Let The Kids Win</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Lady Lamb</td>
+              <td class="M-Bb">Crane Your Neck</td>
+              <td class="M-B">Ripely Pine</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">IAN SWEET</td>
+              <td class="M-Bb">#23</td>
+              <td class="M-B">Shapeshifter</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Lomelda</td>
+              <td class="M-Bb">Hannah Sun</td>
+              <td class="M-B">Hannah</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Lomelda</td>
+              <td class="M-Bb">Interstate Vision</td>
+              <td class="M-B">Thx</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Lomelda</td>
+              <td class="M-Bb">Far Out</td>
+              <td class="M-B">Thx</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Washed Out</td>
+              <td class="M-Bb">Feel It All Around</td>
+              <td class="M-B">Life Of Leisure</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">London O'Connor</td>
+              <td class="M-Bb">GUTS</td>
+              <td class="M-B">OΔ</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Denitia and Sene</td>
+              <td class="M-Bb">casanova.</td>
+              <td class="M-B">his and hers.</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Silk Rhodes</td>
+              <td class="M-Bb">Pains</td>
+              <td class="M-B">Silk Rhodes</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Vista Kicks</td>
+              <td class="M-Bb">Marcelline</td>
+              <td class="M-B">Chasing Waves</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Cambriana</td>
+              <td class="M-Bb">Vegas</td>
+              <td class="M-B">House of Tolerance</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">BROCKHAMPTON</td>
+              <td class="M-Bb">BLEACH</td>
+              <td class="M-B">SATURATION III</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">BROCKHAMPTON</td>
+              <td class="M-Bb">BOY BYE</td>
+              <td class="M-B">GINGER</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Yeek</td>
+              <td class="M-Bb">Only in the West</td>
+              <td class="M-B">Only in the West</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">BROCKHAMPTON</td>
+              <td class="M-Bb">NO HALO</td>
+              <td class="M-B">GINGER</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">maye</td>
+              <td class="M-Bb">Tú</td>
+              <td class="M-B">Tú</td>
+            </tr>
+            <tr>
+              <td class="M-Ba">Girlpool</td>
+              <td class="M-Bb">Cut Your Bangs</td>
+              <td class="M-B">Chinatown</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Beach House</td>
+              <td class="M-Cb">Equal Mind</td>
+              <td class="M-C">B-Sides and Rarities</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sjowgren</td>
+              <td class="M-Cb">Drifty</td>
+              <td class="M-C">Demos</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Glen Porter</td>
+              <td class="M-Cb">Ask Her Nicely and She'll Show You The Scars</td>
+              <td class="M-C">The Devil Is A Dancer, The Piper Is A Madman</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Akiko Yano, U-zhaan, Tamaki Roy, Chinza Dopeness</td>
+              <td class="M-Cb">ただいまの歌 ~ふたりぼっちで行こうver.~</td>
+              <td class="M-C">ふたりぼっちで行こう</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">BADBADNOTGOOD, Charlotte Day Wilson</td>
+              <td class="M-Cb">In Your Eyes (feat. Charlotte Day Wilson)</td>
+              <td class="M-C">IV</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Atta Boy</td>
+              <td class="M-Cb">Jack and Blow</td>
+              <td class="M-C">Out of Sorts</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">infinite bisous</td>
+              <td class="M-Cb">Period</td>
+              <td class="M-C">Period</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Acetone</td>
+              <td class="M-Cb">Shaker</td>
+              <td class="M-C">1992 - 2001</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Enji</td>
+              <td class="M-Cb">Diary of June 9th</td>
+              <td class="M-C">Ursgal</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">角銅真実</td>
+              <td class="M-Cb">Dance</td>
+              <td class="M-C">Ya Chaika</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Mazzy Star</td>
+              <td class="M-Cb">Fade Into You</td>
+              <td class="M-C">So Tonight That I Might See</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Cat Power</td>
+              <td class="M-Cb">Manhattan</td>
+              <td class="M-C">Sun</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Cocteau Twins</td>
+              <td class="M-Cb">Cherry-coloured Funk</td>
+              <td class="M-C">Heaven or Las Vegas</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Cocteau Twins</td>
+              <td class="M-Cb">Iceblink Luck</td>
+              <td class="M-C">Heaven or Las Vegas</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">DOPE LEMON</td>
+              <td class="M-Cb">Hey You</td>
+              <td class="M-C">Smooth Big Cat</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Black Pool</td>
+              <td class="M-Cb">Amistad</td>
+              <td class="M-C">Just Love</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Beach House</td>
+              <td class="M-Cb">Real Love</td>
+              <td class="M-C">Teen Dream</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Girlpool</td>
+              <td class="M-Cb">Minute In Your Mind</td>
+              <td class="M-C">What Chaos Is Imaginary</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Girlpool</td>
+              <td class="M-Cb">Roses</td>
+              <td class="M-C">What Chaos Is Imaginary</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Radiohead</td>
+              <td class="M-Cb">No Surprises</td>
+              <td class="M-C">OK Computer</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Yo La Tengo</td>
+              <td class="M-Cb">Nowhere Near</td>
+              <td class="M-C">Painful</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Fiona Apple</td>
+              <td class="M-Cb">Across the Universe</td>
+              <td class="M-C">Pleasantville - Music From The Motion Picture</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">MorMor</td>
+              <td class="M-Cb">Whatever Comes to Mind</td>
+              <td class="M-C">Heaven's Only Wishful</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Mazzy Star</td>
+              <td class="M-Cb">In the Kingdom</td>
+              <td class="M-C">Seasons of Your Day</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">The National</td>
+              <td class="M-Cb">This is The Last Time</td>
+              <td class="M-C">Trouble Will Find Me</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Matt Maltese</td>
+              <td class="M-Cb">Rom-Com Gone Wrong</td>
+              <td class="M-C">Krystal</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Tall Friend</td>
+              <td class="M-Cb">Guts</td>
+              <td class="M-C">Tawl Friend</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Nico Yaryan</td>
+              <td class="M-Cb">With Love</td>
+              <td class="M-C">What A Tease</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Nico Yaryan</td>
+              <td class="M-Cb">You Belong To Me</td>
+              <td class="M-C">What A Tease</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Nico Yaryan</td>
+              <td class="M-Cb">Just Tell Me</td>
+              <td class="M-C">What A Tease</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Nico Yaryan</td>
+              <td class="M-Cb">The Magic</td>
+              <td class="M-C">What A Tease</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Worn-Tin</td>
+              <td class="M-Cb">Seomthing's Coming</td>
+              <td class="M-C">Something's Coming</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Atta Boy</td>
+              <td class="M-Cb">Saccharine</td>
+              <td class="M-C">Out of Sorts</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">SadGirl</td>
+              <td class="M-Cb">Feel Like Shit</td>
+              <td class="M-C">Vol. One</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">SadGirl</td>
+              <td class="M-Cb">Little Queene</td>
+              <td class="M-C">Vol. Three: The Hand That Did the Deed</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Night Moves</td>
+              <td class="M-Cb">Colored Emotions</td>
+              <td class="M-C"></td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Night Moves</td>
+              <td class="M-Cb">Carl Sagan</td>
+              <td class="M-C">Colored Emotions</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Night Moves</td>
+              <td class="M-Cb">Coconut Grove</td>
+              <td class="M-C">Pennied Days</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Night Moves</td>
+              <td class="M-Cb">Strands Align</td>
+              <td class="M-C">Can You Really Find Me</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Yellow House</td>
+              <td class="M-Cb">Blinding Sights (Left Me Cold in the Night)</td>
+              <td class="M-C">A Carnival of Fears</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Yellow House</td>
+              <td class="M-Cb">Better Views</td>
+              <td class="M-C">Better Views</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Beach House</td>
+              <td class="M-Cb">Myth</td>
+              <td class="M-C">Bloom</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">The Clientele</td>
+              <td class="M-Cb">Reflections After jane</td>
+              <td class="M-C">Suburban Light (Remastered)</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Foxygen</td>
+              <td class="M-Cb">Shuggie</td>
+              <td class="M-C">We Are teh 21st Century Ambassadors of Peace & Magic</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Alvvays</td>
+              <td class="M-Cb">Dreams Tonite</td>
+              <td class="M-C">Antisocialites</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Alvvays</td>
+              <td class="M-Cb">Not My Baby</td>
+              <td class="M-C">Antisocialites</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Alvvays</td>
+              <td class="M-Cb">Already Gone</td>
+              <td class="M-C">Antisocialites</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Unknown Mortal Orchestra</td>
+              <td class="M-Cb">Necessary Evil</td>
+              <td class="M-C">Multi-Love</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Unknown Mortal Orchestra</td>
+              <td class="M-Cb">Swim and Sleep (Like a Shark)</td>
+              <td class="M-C">II</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sugar Candy Mountain</td>
+              <td class="M-Cb">Crystalline</td>
+              <td class="M-C">Do Right</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sugar Candy Mountain</td>
+              <td class="M-Cb">Breakfast in Bed</td>
+              <td class="M-C">Mystic Hits</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sugar Candy Mountain</td>
+              <td class="M-Cb">Windows</td>
+              <td class="M-C">666</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sugar Candy Mountain</td>
+              <td class="M-Cb">666</td>
+              <td class="M-C">666</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sugar Candy Mountain</td>
+              <td class="M-Cb">Tired</td>
+              <td class="M-C">666</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Moses Gunn Collective</td>
+              <td class="M-Cb">Dream Girls</td>
+              <td class="M-C">Dream Girls</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">levitation</td>
+              <td class="M-Cb">Friends</td>
+              <td class="M-C">Minds Of Our Own</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Xiu Xiu</td>
+              <td class="M-Cb">I Luv the Valley OH!</td>
+              <td class="M-C">Fabulous Muscles</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Connan Mockasin</td>
+              <td class="M-Cb">Forever Dolphin Love</td>
+              <td class="M-C">Forever Dolphin Love</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">The Holydrug Couple</td>
+              <td class="M-Cb">Ikebana Telephone Line</td>
+              <td class="M-C">Hyper Super Mega</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">STRFKR</td>
+              <td class="M-Cb">Tape Machine</td>
+              <td class="M-C">Being No One, Going Nowhere</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">STRFKR</td>
+              <td class="M-Cb">Kahlil Gibran</td>
+              <td class="M-C">Miracle Mile</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">STRFKR</td>
+              <td class="M-Cb">Being No One, Going Nowhere</td>
+              <td class="M-C">Being No One, Going Nowhere</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Washed Out</td>
+              <td class="M-Cb">Million Miles Away</td>
+              <td class="M-C">Mister Mellow</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Washed Out</td>
+              <td class="M-Cb">Instant Calm</td>
+              <td class="M-C">Mister Mellow</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sunbeam Sound Machine</td>
+              <td class="M-Cb">Space Face (Devotion)</td>
+              <td class="M-C">Sunbeam Sound Machine</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sunbeam Sound Machine</td>
+              <td class="M-Cb">Cosmic Love Affair</td>
+              <td class="M-C">Sunbeam Sound Machine</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sunbeam Sound Machine</td>
+              <td class="M-Cb">M'Love</td>
+              <td class="M-C">Sunbeam Sound Machine</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">The Japanese House</td>
+              <td class="M-Cb">Saw You In A Dream</td>
+              <td class="M-C">Saw You In A Dream</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">SPECIAL OTHERS</td>
+              <td class="M-Cb">Good song</td>
+              <td class="M-C">WAVE</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">SPECIAL OTHERS</td>
+              <td class="M-Cb">WAVE</td>
+              <td class="M-C">WAVE</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Weste</td>
+              <td class="M-Cb">Crisantemo</td>
+              <td class="M-C">Huestes</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">L'Impératrice</td>
+              <td class="M-Cb">Vacances</td>
+              <td class="M-C">Matahari (French Version)</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Pro Teens</td>
+              <td class="M-Cb">Motel Reflections</td>
+              <td class="M-C">Accidentally</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Guantanmo Bay Surf Club</td>
+              <td class="M-Cb">Escargot Blues</td>
+              <td class="M-C">Guantanamo Bay Surf Club</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Chicano Batman</td>
+              <td class="M-Cb">Magma</td>
+              <td class="M-C">Cycles of Existential Rhyme</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">MF DOOM</td>
+              <td class="M-Cb">THAT'S THAT</td>
+              <td class="M-C">BORN LIKE THIS</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Yung Heazy</td>
+              <td class="M-Cb">Because</td>
+              <td class="M-C">Because</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Mk.gee</td>
+              <td class="M-Cb">Unaware</td>
+              <td class="M-C">Pronouned Mcgee</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Ginger Root</td>
+              <td class="M-Cb">Mahjong Room</td>
+              <td class="M-C">Mahjong Room</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Inner Wave</td>
+              <td class="M-Cb">Mystery</td>
+              <td class="M-C">Apoptosis</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Monsune</td>
+              <td class="M-Cb">1998</td>
+              <td class="M-C">Tradition</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Monsune</td>
+              <td class="M-Cb">OUTTA MY MIND</td>
+              <td class="M-C">Tradition</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Monsune</td>
+              <td class="M-Cb">CLOUD</td>
+              <td class="M-C">Tradition</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Vansire, FLOOR CRY</td>
+              <td class="M-Cb">Nice to See You</td>
+              <td class="M-C">Angel Youth</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Jakob</td>
+              <td class="M-Cb">You and I</td>
+              <td class="M-C">April</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Jakob</td>
+              <td class="M-Cb">Velvet Light</td>
+              <td class="M-C">Velvet Light</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Melanie Faye, Mac DeMarco</td>
+              <td class="M-Cb">Eternally 12</td>
+              <td class="M-C">Eternally 12</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Bahamas</td>
+              <td class="M-Cb">Bad Boys Need Love Too</td>
+              <td class="M-C">Earthtones</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Jonah Yano, BADBADNOTGOOD</td>
+              <td class="M-Cb">nervous</td>
+              <td class="M-C">nervous</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Chiiild</td>
+              <td class="M-Cb">Pirouette</td>
+              <td class="M-C">Synthetic Soul</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Orion Sun</td>
+              <td class="M-Cb">Ne Me Quitte Pas (Don't Leave Me)</td>
+              <td class="M-C">Hold Space For Me</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">easy life</td>
+              <td class="M-Cb">spiders</td>
+              <td class="M-C">junk food</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">niña</td>
+              <td class="M-Cb">you and i</td>
+              <td class="M-C">love letters to you</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Devendra Banhart</td>
+              <td class="M-Cb">Saturday Night</td>
+              <td class="M-C">Ape in Pink Marble</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Ariel Pink</td>
+              <td class="M-Cb">Gates Of Xiong</td>
+              <td class="M-C">Oddities Sodomies (Vol. 2)</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Choker</td>
+              <td class="M-Cb">Juno</td>
+              <td class="M-C">Honeybloom</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Skinshape</td>
+              <td class="M-Cb">Shangri-La</td>
+              <td class="M-C">Skinshape</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Skinshape</td>
+              <td class="M-Cb">Take My Time</td>
+              <td class="M-C">Life & Love</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Rostam</td>
+              <td class="M-Cb">Bike Dream</td>
+              <td class="M-C">Half-Light</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Nick Leng</td>
+              <td class="M-Cb">LEMONS</td>
+              <td class="M-C">LEMONS</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Nick Leng</td>
+              <td class="M-Cb">Lonely Shade of Blue</td>
+              <td class="M-C">Lonely Shade of Blue</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Wampire</td>
+              <td class="M-Cb">Wizard Staff</td>
+              <td class="M-C">Bazaar</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">The Lagoons</td>
+              <td class="M-Cb">California</td>
+              <td class="M-C">California</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Caitlin Russo</td>
+              <td class="M-Cb">Bad Things</td>
+              <td class="M-C">House with a Pool</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Caitlin Russo</td>
+              <td class="M-Cb">Joyride</td>
+              <td class="M-C">House with a Pool</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Vanilla Gorilla</td>
+              <td class="M-Cb">Tropicana</td>
+              <td class="M-C">Colour Flow</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Feng Suave</td>
+              <td class="M-Cb">Noche Oscura</td>
+              <td class="M-C">Feng Suave</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Mellow Fellow, Ruru</td>
+              <td class="M-Cb">It's Okay to Dream</td>
+              <td class="M-C">It's Okay to Dream</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sugar Candy Mountain</td>
+              <td class="M-Cb">Sucette</td>
+              <td class="M-C">Sucette</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sam Evian</td>
+              <td class="M-Cb">Dark Love</td>
+              <td class="M-C">Premium</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Harmless</td>
+              <td class="M-Cb">Painfully Obvious</td>
+              <td class="M-C">Harmless Fantasies</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Smith Westerns</td>
+              <td class="M-Cb">3am Spiritual</td>
+              <td class="M-C">Soft Will</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sugar Candy Mountain</td>
+              <td class="M-Cb">Do You Know the Place?</td>
+              <td class="M-C">Do Right</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Small Forward</td>
+              <td class="M-Cb">The Reservoir</td>
+              <td class="M-C">The Reservoir</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Phantogram</td>
+              <td class="M-Cb">Answer</td>
+              <td class="M-C">Three</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">tomemitsu</td>
+              <td class="M-Cb">In Dreams</td>
+              <td class="M-C">M_o_d_e_s</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Magic City Hippies</td>
+              <td class="M-Cb">Limestone</td>
+              <td class="M-C">Hippie Castle EP</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sleeping Jesus</td>
+              <td class="M-Cb">Goddess</td>
+              <td class="M-C">Perennial</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">Sleeping Jesus</td>
+              <td class="M-Cb">California At Dawn</td>
+              <td class="M-C">Perennial</td>
+            </tr>
+            <tr>
+              <td class="M-Ca">FELIVAND</td>
+              <td class="M-Cbb">Same Old</td>
+              <td class="M-C">Same Old</td>
             </tr>
 
             <!--
     <tr>
       <td class="J-A"></td>
-      <td class="J-A"></td>
+      <td class="J-Ab"></td>
       <td class="J-A"></td>
     </tr>
     <tr>
@@ -867,10 +2377,29 @@
                 // ex. dict["M-A"] will return "megan"
 
                 const dict = {
-                    "M-A": "Exchange 2/4/22",
-                    "M-B": "Calibration, 2/16/22",
-                    "J-A": "Music to Send to Megan 2/2/22",
-                    "J-B": "More Music to Send to Megan 2/14/22"
+                    "M-Aa": "Exchange",
+                    "M-Ab": "2/4/22",
+                    "M-A": "from Megan",
+
+                    "M-Ba": "Calibration",
+                    "M-Bb": "2/16/22",
+                    "M-B": "from Megan",
+
+                    "M-Ca": "Sink",
+                    "M-Cb": "3/10/22",
+                    "M-C": "from Megan",
+
+                    "J-Aa": "Music to Send to Megan",
+                    "J-Ab": "2/2/22",
+                    "J-A": "from Jalen",
+
+                    "J-Ba": "More Music to Send to Megan",
+                    "J-Bb": "2/14/22",
+                    "J-B": "from Jalen",
+
+                    "J-Ca": "Even More Music for Megan",
+                    "J-Cb": "2/2/22",
+                    "J-C": "from Jalen",
                 }
 
                 // string that will temporarily save the original text in cell
